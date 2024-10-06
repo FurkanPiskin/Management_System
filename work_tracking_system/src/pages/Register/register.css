@@ -1,0 +1,59 @@
+.register-wrapper{
+    border: 1px solid #ddd;
+  position: relative;
+
+  max-width: 400px;
+  margin: 0 auto;
+  
+  padding: 1.25rem 0.625rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #1c1d22;
+  border-radius: 1.25rem;
+}
+.register-wrapper .user-wrapper img {
+    position: absolute;
+    height: 7.5rem;
+    top: -80px;
+    left: 140px;
+    border-radius: 50%;
+  }
+  .register-wrapper .user-wrapper i {
+    border: 2px solid red;
+    width: 40px;
+  }
+  .register-wrapper .login-header {
+    margin-top: 1.25rem;
+    display: flex;
+    column-gap: 20px;
+    margin-bottom: 1.875rem;
+  }
+  .register-wrapper .login-header span {
+    font-size: 1.5rem;
+    border-bottom: 2px solid #545d69;
+  }
+  .register-wrapper .login-header span.active {
+    color: white;
+    border-bottom: 2px solid #ddd;
+  }
+  .register-wrapper form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.25rem;
+    align-items: center;
+    justify-content: center;
+  }
+  .register-wrapper form .input-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  .register-wrapper form .input-wrapper label {
+    color: white;
+    font-size: 16px;
+  }
+  .register-wrapper form .input-wrapper input {
+    background-color: #545d69;
+  }
+  

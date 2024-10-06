@@ -1,0 +1,29 @@
+table {
+    
+    width: 100%;
+    margin-top: 10px;
+    border: 2px solid #ddd;
+    border-radius: 20px;
+ 
+  }
+  
+  
+  .table-wrapper {
+    min-height: 402px;
+    display: flex;
+    flex-direction: column;
+    max-width: 625px;
+    width: 100%;
+    text-align: center;
+    justify-content: start;
+    padding: 15px 0px;
+    border: 2px solid #2371E1;
+  ;
+    border-radius: 20px;
+    background-color: #1c1d22;
+    margin: 100px auto;
+
+  }
+  .table-wrapper h2 {
+    color: white;
+  }
